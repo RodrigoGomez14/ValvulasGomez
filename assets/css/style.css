@@ -44,9 +44,14 @@ body{
 #productos h3{
     text-shadow: 2px 1px 1px black;
 }
+.card{
+    border-radius: 1em
+}
 #productos .card-img-overlay{
     background: rgba(0, 0, 0, 0.4);
-    transition: .3s
+    transition: .3s;
+    padding: 0;
+    border-radius: 1em
 }
 #productos img{
     object-fit: cover
