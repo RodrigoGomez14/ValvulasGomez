@@ -1,14 +1,20 @@
 body{
 }
 #logo{
-    max-height: 45px;
-    object-fit: fill
+    max-width: 100px;
+}
+.navbar{
+    border-bottom: 1px solid grey
+}
+#navBarButton:focus {
+    outline: 1px dotted;
+    outline: 2px solid cyan;
 }
 #hero .carousel-inner img{
     height: 80vh;
-    object-fit: contain;
+    object-fit: cover;
     filter: grayscale(25%);
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372)
+    background: #273b47
 }
 .overlay{
     position: absolute;
@@ -17,7 +23,9 @@ body{
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
-    color: white
+    color: white;
+    text-shadow: 1px 1px 1px black
+
 }
 .overlay .container-fluid,
 .overlay .container-fluid .row{
@@ -30,6 +38,9 @@ body{
 #productos img{
     filter: blur(50%)
 }
+#productos h2{
+    text-shadow: 2px 1px 1px gray;
+}
 #productos h3{
     text-shadow: 2px 1px 1px black;
 }
@@ -38,7 +49,7 @@ body{
     transition: .3s
 }
 #productos img{
-    object-fit: contain
+    object-fit: cover
 }
 #productos .card-img-overlay .container,
 #productos .card-img-overlay .container .row{
@@ -48,7 +59,9 @@ body{
     background: rgba(12, 123, 255, 0.4);
 }
 #quienesSomos{
-    background: #273b47
+    background-color: #343a40
+    
+
 }
 #quienesSomos img{
     object-fit: contain;
@@ -57,5 +70,24 @@ body{
 }
 #quienesSomos h2,
 #quienesSomos h5{
-    color:white
+    color:white;
+    text-shadow: 1px 1px 1px black
+
+}
+#contacto,footer{
+    background: linear-gradient(90deg,#1c3643,#273b47 40%,#1e5372)
+}
+#contacto small,
+#contacto h2{
+    color: white;
+    text-shadow: 1px 1px 1px black
+}
+footer{
+    color: whitesmoke;
+    font-size: 1.2em
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row
 }
