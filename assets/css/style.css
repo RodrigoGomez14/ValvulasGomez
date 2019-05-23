@@ -47,3 +47,15 @@ body{
 #productos .card-img-overlay:hover{
     background: rgba(12, 123, 255, 0.4);
 }
+#quienesSomos{
+    background: #273b47
+}
+#quienesSomos img{
+    object-fit: contain;
+    max-height: 300px;
+    width: 100%
+}
+#quienesSomos h2,
+#quienesSomos h5{
+    color:white
+}
