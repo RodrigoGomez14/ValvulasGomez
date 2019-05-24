@@ -1,0 +1,67 @@
+#productos .badge{
+    font-size: 1.2em !important;
+}
+body{
+}
+#logo{
+    max-width: 100px;
+}
+.navbar{
+    border-bottom: 1px solid grey
+}
+#navBarButton:focus {
+    outline: 1px dotted;
+    outline: 2px solid cyan;
+}
+#productos{
+    background: linear-gradient(90deg,#1c3643,#273b47 40%,#1e5372)
+}
+#productos img{
+    filter: blur(50%)
+}
+#productos h2{
+    text-shadow: 2px 1px 1px gray;
+}
+#productos h3{
+    text-shadow: 2px 1px 1px black;
+}
+.card{
+    border-radius: 1em
+}
+#productos .card-img-overlay{
+    transition: .3s;
+    padding: 0;
+    border: solid grey;
+    border-radius: 1em;
+    display: flex;
+    align-items: flex-end
+}
+#productos img{
+    object-fit: cover
+}
+#productos .card-img-overlay:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+#quienesSomos h2,
+#quienesSomos h5{
+    color:white;
+    text-shadow: 1px 1px 1px black
+
+}
+#contacto,footer{
+    background: linear-gradient(90deg,#1c3643,#273b47 40%,#1e5372)
+}
+#contacto small,
+#contacto h2{
+    color: white;
+    text-shadow: 1px 1px 1px black
+}
+footer{
+    color: whitesmoke;
+    font-size: 1.2em
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row
+}
