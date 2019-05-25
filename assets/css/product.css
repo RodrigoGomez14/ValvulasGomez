@@ -76,6 +76,31 @@ footer ul{
     background: #1e5372;
     color: white
 }
-#modal img{
+.modal img{
     max-width: 300px;
+}
+.modal ol{
+    margin-bottom: 0
+}
+.modal .carousel-indicators li {
+    width: 48px;
+    height: 2px;
+    background-color: #4787ac;
+}
+.modal .carousel-indicators .active {
+    width: 48px;
+    height: 2px;
+    background-color: #1e5372;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #1c3643;
+}
+.carousel-control-prev-icon:after
+{
+  content: '<';
+  font-size: 55px;
+  color:#1c3643;
 }
