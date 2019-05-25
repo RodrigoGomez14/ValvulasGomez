@@ -13,8 +13,8 @@ body{
     outline: 1px dotted;
     outline: 2px solid cyan;
 }
-#productos{
-    background: linear-gradient(90deg,#1c3643,#273b47 40%,#1e5372)
+#productos {
+    margin-top: 70px
 }
 #productos img{
     filter: blur(50%)
@@ -40,7 +40,7 @@ body{
     object-fit: cover
 }
 #productos .card-img-overlay:hover{
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.3);
 }
 #quienesSomos h2,
 #quienesSomos h5{
@@ -64,4 +64,18 @@ footer ul{
     list-style: none;
     display: flex;
     flex-direction: row
+}
+
+.container .dropdown .dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: #1c3643;
+  transition: .2s
+}
+.btn-VG{
+    background: #1e5372;
+    color: white
+}
+#modal img{
+    max-width: 300px;
 }

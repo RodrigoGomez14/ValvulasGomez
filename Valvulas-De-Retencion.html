@@ -13,11 +13,11 @@
     <title>Valvulas Gomez</title>
 </head>
 
-<body>
+<body id="body">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand ml-auto mr-auto pt-0 pb-0" href="#">
+            <a class="navbar-brand ml-auto mr-auto pt-0 pb-0" href="index.html">
                 <img id="logo" src="assets/img/logo.png" alt="">
             </a>
             <button id="navBarButton" class="navbar-toggler mr-2 bt-outline" type="button" data-toggle="collapse"
@@ -34,7 +34,7 @@
                             Productos
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Valvulas de retencion</a>
+                            <a class="dropdown-item" href="Valvulas-De-Retencion.html">Valvulas de retencion</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Accesorios</a>
                             <div class="dropdown-divider"></div>
@@ -68,6 +68,24 @@
             </div>
             <div class="row">
                 <div id="ValvulasDePie" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
+                    <a data-target="#modalProducto" data-toggle="modal">
+                        <div class="card bg-dark text-white">
+                            <img src="assets/img/portadas/portada valvulas.png" class="card-img" alt="...">
+                            <div class="card-img-overlay ">
+                                <div class="container">
+                                    <div class="row text-right">
+                                        <div class="col pb-2">
+                                            <span class="badge badge-pill badge-light  align-bottom">
+                                                Valvula de Pie
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
                     <a href="">
                         <div class="card bg-dark text-white">
                             <img src="assets/img/portadas/portada valvulas.png" class="card-img" alt="...">
@@ -85,7 +103,7 @@
                         </div>
                     </a>
                 </div>
-                <div id="ValvulasDePie" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
+                <div id="" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
                     <a href="">
                         <div class="card bg-dark text-white">
                             <img src="assets/img/portadas/portada valvulas.png" class="card-img" alt="...">
@@ -103,7 +121,7 @@
                         </div>
                     </a>
                 </div>
-                <div id="ValvulasDePie" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
+                <div id="" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
                     <a href="">
                         <div class="card bg-dark text-white">
                             <img src="assets/img/portadas/portada valvulas.png" class="card-img" alt="...">
@@ -121,25 +139,7 @@
                         </div>
                     </a>
                 </div>
-                <div id="ValvulasDePie" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
-                    <a href="">
-                        <div class="card bg-dark text-white">
-                            <img src="assets/img/portadas/portada valvulas.png" class="card-img" alt="...">
-                            <div class="card-img-overlay ">
-                                <div class="container">
-                                    <div class="row text-right">
-                                        <div class="col pb-2">
-                                            <span class="badge badge-pill badge-light  align-bottom">
-                                                Valvula de Pie
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div id="ValvulasDePie" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
+                <div id="" class="col-12 col-md-6 col-lg-4 pb-0  form-group">
                     <a href="">
                         <div class="card bg-dark text-white">
                             <img src="assets/img/portadas/portada valvulas.png" class="card-img" alt="...">
@@ -245,16 +245,74 @@
     </footer>
     <!-- /Footer -->
 
+    <!-- Modal -->
+        <!-- Button trigger modal -->
 
+    <!-- Modal -->
+    <section id="modal">
+        <div class="modal fade " id="modalProducto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Valvula de Pie</h5>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/img/productos/valvula.png" class="d-block w-100 ml-auto mr-auto" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                            <img src="assets/img/portadas/portada valvulas.png" class="d-block w-100 mr-auto ml-auto" alt="...">
+                                            </div>
+                                        </div>
+                                        </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 text-center form-group">
+                                <span class="badge btn-VG p-2">Informacion Del Producto</span>
+                            </div>
+                            <div class="col-6 text-center form-group">
+                                <span class="badge btn-VG p-2">Informacion Del Producto</span>
+                            </div>
+                            <div class="col-6 text-center form-group">
+                                <span class="badge btn-VG p-2">Informacion Del Producto</span>
+                            </div>
+                            <div class="col-6 text-center form-group">
+                                <span class="badge btn-VG p-2">Informacion Del Producto</span>
+                            </div>
+                            <div class="col-6 text-center form-group">
+                                <span class="badge btn-VG p-2">Informacion Del Producto</span>
+                            </div>
+                            <div class="col-6 text-center form-group">
+                                <span class="badge btn-VG p-2">Informacion Del Producto</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Modal -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="assets/js/modal.js"></script>
 </body>
 
 </html>

@@ -61,7 +61,7 @@ body{
     height: 100%;
 }
 #productos .card-img-overlay:hover{
-    background: rgba(12, 123, 255, 0.4);
+    background: rgba(255, 255, 255, 0.0000001);
 }
 #quienesSomos{
     background-color: #343a40
@@ -95,4 +95,10 @@ footer ul{
     list-style: none;
     display: flex;
     flex-direction: row
+}
+.container .dropdown .dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: #1c3643;
+  transition: .2s
 }
