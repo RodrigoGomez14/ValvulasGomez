@@ -19,11 +19,8 @@ body{
 #productos img{
     filter: blur(50%)
 }
-#productos h2{
-    text-shadow: 2px 1px 1px gray;
-}
 #productos h3{
-    text-shadow: 2px 1px 1px black;
+    text-shadow: 2px 1px 1px gray;
 }
 .card{
     border-radius: 1em
