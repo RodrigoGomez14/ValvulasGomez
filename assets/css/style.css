@@ -74,8 +74,12 @@ body{
 }
 #quienesSomos img{
     object-fit: contain;
-    max-height: 300px;
+    max-height: 400px;
     width: 100%
+}
+#QuienesSomosText{
+    display: flex;
+    align-items: center
 }
 #quienesSomos h2,
 #quienesSomos h5{
