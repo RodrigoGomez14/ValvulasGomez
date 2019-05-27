@@ -75,6 +75,10 @@ footer ul{
     background: #1e5372;
     color: white
 }
+.modal .carousel-inner{
+    background: #1e53724b;
+    border-radius: 35px;
+}
 .modal img{
     max-width: 300px;
 }
