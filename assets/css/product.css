@@ -14,7 +14,8 @@ body{
     outline: 2px solid cyan;
 }
 #productos {
-    margin-top: 70px
+    margin-top: 70px;
+    background: linear-gradient(180deg, white 80%, #1e537294)
 }
 #productos img{
     filter: blur(50%)
@@ -28,7 +29,7 @@ body{
 #productos .card-img-overlay{
     transition: .3s;
     padding: 0;
-    border: solid grey;
+    border: 1px solid grey;
     border-radius: 1em;
     display: flex;
     align-items: flex-end
@@ -39,6 +40,7 @@ body{
 #productos .card-img-overlay:hover{
     background: rgba(0, 0, 0, 0.3);
 }
+
 #quienesSomos h2,
 #quienesSomos h5{
     color:white;
