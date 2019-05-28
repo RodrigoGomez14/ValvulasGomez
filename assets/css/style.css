@@ -95,6 +95,13 @@ body{
     color: white;
     text-shadow: 1px 1px 1px black
 }
+#contacto label{
+    color: white;
+    margin: 0
+}
+#contacto .bdage{
+    
+}
 footer{
     color: whitesmoke;
     font-size: 1.2em
@@ -109,4 +116,67 @@ footer ul{
   color: #fff;
   background-color: #1c3643;
   transition: .2s
+}
+#pantalla-de-carga{
+    background: whitesmoke;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    z-index: 9999;
+    animation-name: pantallaCarga;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-fill-mode: both
+
+}
+#pantalla-de-carga .container-fluid{
+    height: 100%;
+}
+#pantalla-de-carga .row:nth-of-type(1){
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+
+}
+#pantalla-de-carga #img{
+    animation-name: pantallaCargaText;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-fill-mode: both
+}
+#pantalla-de-carga img{
+    background: #1e5372;
+    max-width: 500px
+}
+#pantalla-de-carga #spinner{
+    animation-name: pantallaCargaText;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-fill-mode: both
+
+}
+@keyframes pantallaCarga{
+    from{
+        right: 0%
+    }
+    to{
+        right: 100vw;
+    }
+}
+@keyframes pantallaCargaText{
+    from{
+        right: 0%
+    }
+    to{
+        right: 100vw;
+        opacity: 0;
+    }
+}
+.text-VG{
+    color: #1e5372 !important 
 }
