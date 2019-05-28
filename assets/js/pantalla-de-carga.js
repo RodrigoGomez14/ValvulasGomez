@@ -1,4 +1,4 @@
-const $body = document.getElementById("body")
+/*const $body = document.getElementById("body")
 const $spinner = document.getElementById("spinner")
 const $img = document.getElementById("img")
 
@@ -22,4 +22,4 @@ setTimeout(() => {
     unlockBody()
     deleteSpinner()
     deleteImg()
-}, 7000);
+}, 7000);*/
