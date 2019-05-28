@@ -97,9 +97,10 @@ body{
 }
 #contacto label{
     color: white;
-    margin: 0
+    margin: 0 !important
 }
 #contacto .bdage{
+
     
 }
 footer{

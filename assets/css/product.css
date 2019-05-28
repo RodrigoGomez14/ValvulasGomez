@@ -50,6 +50,10 @@ body{
 #contacto,footer{
     background: linear-gradient(90deg,#1c3643,#273b47 40%,#1e5372)
 }
+#contacto label{
+    color: white;
+    margin: 0 !important
+}
 #contacto small,
 #contacto h2{
     color: white;
